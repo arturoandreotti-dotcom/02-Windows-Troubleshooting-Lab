@@ -55,10 +55,28 @@ The script also handles situations where no matching events are found or when ev
 ### Prerequisites
 
 - Windows 11
-- Windows PowerShell 5.1 (tested)
+- Windows PowerShell 5.1 or PowerShell 7.6.9 (both tested on Windows 11)
 - Git (optional, for cloning the repository)
 
 Some system information may require elevated permissions.
+
+### PowerShell Compatibility
+
+All four troubleshooting scripts were successfully tested on Windows 11 using:
+
+- Windows PowerShell 5.1
+- PowerShell 7.6.9
+
+| Script | Windows PowerShell 5.1 | PowerShell 7.6.9 |
+|---|---|---|
+| `Get-MemoryReport.ps1` | Passed | Passed |
+| `Get-CPUReport.ps1` | Passed | Passed |
+| `Get-DiskReport.ps1` | Passed | Passed |
+| `Get-EventLogReport.ps1` | Passed | Passed |
+
+Testing confirmed successful script execution, expected report output, and correct formatting in both environments.
+
+These results reflect functional testing on the documented Windows 11 environment and do not guarantee compatibility with every PowerShell version or Windows configuration.
 
 ### Clone the Repository
 
