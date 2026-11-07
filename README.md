@@ -1,4 +1,4 @@
-# Windows Troubleshooting Lab
+# Project 02 — Windows Troubleshooting Lab
 
 ## Overview
 
